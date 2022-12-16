@@ -1,4 +1,4 @@
-// WARNING BEFORE CONTINUE //
+**// WARNING BEFORE CONTINUE //**
 
 If u read this, it is my first official Portfolio. First time that I apply a Responsive on a website so be understanding, this is the first time that I code a project on the platform and that it will be seen by many users. 
 
