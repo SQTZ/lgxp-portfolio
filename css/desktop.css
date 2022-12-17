@@ -92,3 +92,7 @@ span {
     margin-left: 49px;
     box-shadow: 0px 4px 100px #8F00FF;
 }
+
+.flex-mode {
+    display: flex;
+}
