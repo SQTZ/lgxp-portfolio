@@ -1,1 +1,94 @@
-:root {}
+:root {
+    --purple-color: #8F00FF;
+    --pink-color: #FF00F5;
+    --white-color: #EEEEEE;
+    --bgrey-color: #1E1E1E;
+    --black-color: #000000;
+}
+
+
+/*LAISSER PLACE POUR SCROLLBAR*/
+
+
+/*LAISSER PLACE POUR SCROLLBAR*/
+
+body {
+    background-color: var(--bgrey-color);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.g-nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    font-family: Fuzzy Bubbles;
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+}
+
+.header-container h1 {
+    font-family: Century Gothic;
+    color: var(--white-color);
+    font-size: 60px;
+    padding-top: 200px;
+    width: 686px;
+    padding-left: 49px;
+}
+
+span {
+    color: var(--purple-color)
+}
+
+.header-container img {
+    width: 600px;
+    height: 600px;
+}
+
+.header-rs {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: var(--white-color);
+}
+
+.waves-header {
+    margin-top: -62px;
+}
+
+#aboutme {
+    margin-top: -5px;
+    background: linear-gradient(180deg, rgba(255, 0, 245, 0.2) 0%, rgba(255, 0, 245, 0.2) 100%), #995FC7;
+}
+
+
+/* Corriger bug de l'image */
+
+#aboutme img {
+    width: 493px;
+    height: 494px;
+    margin-left: 49px;
+    box-shadow: 0px 4px 100px #8F00FF;
+}
