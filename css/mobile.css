@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+    li {
+        font-size: 13px;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .header-container {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .header-container h1 {
+        padding: 0;
+        font-size: 35px;
+        width: auto;
+    }
+    .header-container aside {
+        font-size: 18px;
+    }
+    .header-container img {
+        width: 400px;
+        height: 400px;
+    }
+    .waves-header {
+        display: none;
+    }
+    .quadrados li {
+        z-index: 0;
+        bottom: -200px;
+    }
+    #aboutme {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    #aboutme img {
+        width: auto;
+        height: 294px;
+        margin: auto;
+    }
+    .flex-mode {
+        display: grid;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    #aboutme h2 {
+        margin-left: 0px;
+        font-size: 40px;
+    }
+    #aboutme p {
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    .g-btn-cv {
+        width: auto;
+        display: grid;
+        justify-content: center;
+    }
+    #projects {
+        height: auto;
+    }
+    .g-btn-projects {
+        display: grid;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    #projects h2 {
+        font-size: 40px;
+    }
+    #projects h3 {
+        font-size: 22px;
+    }
+    #ratings h2 {
+        font-size: 40px;
+    }
+    .g-btn-ratings {
+        display: grid;
+    }
+}
