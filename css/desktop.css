@@ -24,12 +24,7 @@
 
 body {
     background-color: var(--bgrey-color);
-    margin: 0;
-}
-
-header {
-    display: grid;
-    justify-content: center;
+    margin: auto;
 }
 
 a {
@@ -60,6 +55,7 @@ li:hover {
 
 .header-container {
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -73,6 +69,11 @@ li:hover {
     padding-left: 49px;
 }
 
+aside {
+    color: #464646;
+    font-size: 20px;
+}
+
 span {
     color: var(--purple-color)
 }
@@ -80,14 +81,6 @@ span {
 .header-container img {
     width: 600px;
     height: 600px;
-}
-
-.header-rs {
-    display: flex;
-    position: relative;
-    z-index: 10;
-    gap: 30px;
-    margin-left: 50px;
 }
 
 .fa-brands:hover {
@@ -108,9 +101,12 @@ span {
 
 .waves-header {
     margin-top: -62px;
+    width: 100%;
 }
 
 #aboutme {
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: -5px;
     height: auto;
     padding-bottom: 300px;
@@ -121,9 +117,8 @@ span {
 /* Corriger bug de l'image */
 
 #aboutme img {
-    width: 493px;
+    width: auto;
     height: 494px;
-    margin-left: 49px;
 }
 
 .flex-mode {
@@ -203,7 +198,7 @@ span {
 
 .g-btn-projects {
     display: flex;
-    gap: 100px;
+    gap: 40px;
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
@@ -252,6 +247,7 @@ span {
 .wave-end {
     display: flex;
     margin: auto;
+    width: 100%;
 }
 
 #ratings h2 {
