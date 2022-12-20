@@ -1,5 +1,58 @@
 @media screen and (max-width: 1024px) {
-    header {
-        background-color: blue;
+    .header-container {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .header-container h1 {
+        padding: 0;
+    }
+    .header-container img {
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .waves-header {
+        display: none;
+    }
+    .quadrados li {
+        z-index: 0;
+        bottom: -200px;
+    }
+    #aboutme {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    #aboutme img {
+        width: auto;
+        height: 394px;
+        margin: auto;
+    }
+    .flex-mode {
+        display: grid;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    #aboutme h2 {
+        margin-left: 0px;
+    }
+    #aboutme p {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .g-btn-cv {
+        width: 367px;
+        margin-left: 0px;
+        margin: auto;
+    }
+    #projects {
+        height: auto;
+    }
+    .g-btn-projects {
+        display: grid;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 100px;
     }
 }

@@ -23,6 +23,7 @@
 /*LAISSER PLACE POUR SCROLLBAR*/
 
 body {
+    background: linear-gradient(180deg, rgba(143, 0, 255, 0.25) 0%, rgba(143, 0, 255, 0.10) 1%, rgba(143, 0, 255, 0.04) 100%), rgba(30, 30, 30, 0.2);
     background-color: var(--bgrey-color);
     margin: auto;
 }
