@@ -9,12 +9,25 @@
 
 /*LAISSER PLACE POUR SCROLLBAR*/
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--white-color);
+    opacity: 35%;
+    border-radius: 10px;
+}
+
 
 /*LAISSER PLACE POUR SCROLLBAR*/
 
 body {
     background-color: var(--bgrey-color);
     margin: 0;
+}
+
+header {
     display: grid;
     justify-content: center;
 }
@@ -38,6 +51,11 @@ li {
     font-family: Fuzzy Bubbles;
     color: var(--white-color);
     font-size: 16px;
+}
+
+li:hover {
+    animation: alternate infinite transition;
+    animation-duration: 1s;
 }
 
 .header-container {
@@ -72,6 +90,17 @@ span {
     margin-left: 50px;
 }
 
+.fa-brands:hover {
+    animation: alternate infinite transition;
+    animation-duration: 1s;
+}
+
+@keyframes transition {
+    100% {
+        color: #8F00FF;
+    }
+}
+
 .fa-brands {
     font-size: 30px;
     color: var(--white-color);
@@ -83,7 +112,8 @@ span {
 
 #aboutme {
     margin-top: -5px;
-    height: 608px;
+    height: auto;
+    padding-bottom: 300px;
     background: linear-gradient(180deg, rgba(255, 0, 245, 0.2) 0%, rgba(255, 0, 245, 0.2) 100%), #995FC7;
 }
 
@@ -98,6 +128,8 @@ span {
 
 .flex-mode {
     display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 #aboutme h2 {
@@ -129,6 +161,10 @@ span {
     border-radius: 20px;
     width: 367px;
     height: 71px;
+}
+
+.btn-cv:hover {
+    box-shadow: 0px 4px 100px #8F00FF, inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-cv h3 {
@@ -183,6 +219,10 @@ span {
     align-items: center;
 }
 
+.btn-projects-lyta:hover {
+    box-shadow: 0px 4px 100px #8F00FF, inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .btn-projects-lyta img {
     width: 100px;
     height: 75px;
@@ -203,6 +243,15 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-projects:hover {
+    box-shadow: 0px 4px 100px #8F00FF, inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wave-end {
+    display: flex;
+    margin: auto;
 }
 
 #ratings h2 {
@@ -231,6 +280,11 @@ span {
     box-shadow: 0px 4px 100px #8F00FF, inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.btn-ratings img {
+    width: 40px;
+    height: 40px;
+}
+
 .btn-ratings h3 {
     font-family: Century Gothic;
     color: var(--white-color);
@@ -250,4 +304,32 @@ span {
     font-family: Century Gothic;
     color: var(--white-color);
     font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.title-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+footer {
+    width: auto;
+    background: linear-gradient(180deg, rgba(255, 0, 245, 0.2) 0%, rgba(255, 0, 245, 0.2) 100%), #995FC7;
+}
+
+.footer-rs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-family: Century Gothic;
+    color: var(--white-color);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
 }
