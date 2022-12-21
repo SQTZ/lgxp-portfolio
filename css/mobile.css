@@ -17,7 +17,8 @@
         width: auto;
     }
     .header-container aside {
-        font-size: 20px;
+        font-size: 18px;
+        width: 378px;
     }
     .header-container img {
         width: 400px;
