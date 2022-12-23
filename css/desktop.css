@@ -230,6 +230,7 @@ span {
 #aboutme img {
     width: auto;
     height: 494px;
+    filter: drop-shadow(4px 4px 4px var(--black-color));
 }
 
 .flex-mode {
